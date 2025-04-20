@@ -1,0 +1,58 @@
+/*body style and background image*/
+body {
+  margin: 5% 150px;
+  background-image: url("https://images.pexels.com/photos/3780104/pexels-photo-3780104.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+background-image: url(Untitled\ design\ \(2\).png);
+}
+
+/*heading style*/
+header {
+  margin: 30px;
+}
+h1 {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 50px;
+  color: #93b0ad;
+}
+
+/*grid with 3 columns*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 15px;
+}
+
+/*button style*/
+button {
+  border: 4px solid #93b0ad;
+  border-radius: 12px;
+  background-color: #fef8f3;
+  padding: 0px 0px 5px 0px;
+}
+
+/*button hover style*/
+button:hover {
+  background-color: #93b0ad;
+}
+
+/*text style*/
+.index, .time {
+  font-family: "Anton", sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  padding: 5px;
+}
+
+.name {
+  margin: 0px;
+  padding: 5px;
+  font-size: 25px;
+  font-family: "Caveat", cursive;
+}

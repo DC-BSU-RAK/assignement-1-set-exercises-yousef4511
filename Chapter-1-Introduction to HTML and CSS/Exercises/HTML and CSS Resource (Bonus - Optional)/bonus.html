@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="A better HTML guide than my last one.">
+    <meta name="viewport" content="width=device-width, initial-1.0">
+    <meta name="author" content="Ethan J.">
+    <title>Better HTML guide</title>
+</head>
+<body>
+
+<header>
+    <h1 style="color: #FF5733; font-family: Arial, sans-serif;">HTML guide</h1>
+</header>
+<hr>
+<main>
+    <section>
+        <header>
+            <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;">Summary</h2>
+        </header>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">In this <strong style="color: #FF5733;">basic course</strong>, we will be going over</p>
+        <!--What you'll be going over.-->
+        <nav>
+            <ol>
+                <li><a href="#what" style="color: #FF5733;">What is HTML</a></li>
+                <li><a href="#header" style="color: #FF5733;">Headers</a></li>
+                <li><a href="#text" style="color: #FF5733;">Text</a></li>
+                <li><a href="#format" style="color: #FF5733;">Text formatting</a></li>
+                <li><a href="#links" style="color: #FF5733;">Links/Hyperlinks/Anchors</a></li>
+                <li><a href="#button" style="color: #FF5733;">Buttons</a></li>
+                <li><a href="#comments" style="color: #FF5733;">Comments</a></li>
+                <li><a href="#tables" style="color: #FF5733;">Tables</a></li>
+                <li><a href="#hrandbr" style="color: #FF5733;">Hr and Br</a></li>
+                <li><a href="#semantic" style="color: #FF5733;">Semantic tags</a></li>
+            </ol>
+        </nav>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">This course will take you from</p>
+        <h3 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;">HTML knowledge</h3>
+        <!--progres bar so it looks like we are making progress-->
+        <progress min="0" max="100" value="0" style="background-color: #FFC300;"></progress>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">to</p>
+        <h3 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;">HTML knowledge</h3>
+        <progress min="0" max="100" value="100" style="background-color: #FFC300;"></progress>
+    </section>
+    <hr>
+    <!--What is HTML-->
+    <section id="what">
+        <header>
+            <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;"><i>What is HTML?</i></h2>
+        </header>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">HTML, or Hypertext Markup Language is a Markup language that is essentially the building blocks of the web. It's syntax was based off the Standard Generalized Markup Lanuage when it was invented in 1993 by Tim Berners-Lee. You can make your own website with HTML, and you often include it with Cascading Style Sheets, and Javascript. All elements are often enclosed between less than and greater than tags. Example: &#60;element&#62;element&#60;/element&#62;</p>
+        <!--Progress bar so it looks like youre learning something-->
+        <progress min="0" max="100" value="10" style="background-color: #FFC300;"></progress>
+    </section>
+    <hr>
+    <!--Headers-->
+    <section id="header">
+        <header>
+            <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;"><i>Headers</i></h2>
+        </header>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">Headers are important for websites as they can let the user know what part of your website they are on. There are 6 types of headers in HTML. the higher the number, the smaller the header is (Tip: sizes on h1 and h2 may vary depending on your browser).</p>
+        <h4 style="color: #FF5733; font-family: 'Arial', sans-serif;">Header Examples:</h4>
+        <nav>
+            <ol>
+                <!--in the code you can me use &# followed with numbers which are basically code for symbols such as < or > or . or "" or &-->
+                <li><h1 style="color: #1F618D;">&#60;h1&#62;Header 1&#60;/h1&#62;</h1></li>
+                <li><h2 style="color: #1F618D;">&#60;h2&#62;Header 2&#60;/h2&#62;</h2></li>
+                <li><h3 style="color: #1F618D;">&#60;h3&#62;Header 3&#60;/h3&#62;</h3></li>
+                <li><h4 style="color: #1F618D;">&#60;h4&#62;Header 4&#60;/h4&#62;</h4></li>
+                <li><h5 style="color: #1F618D;">&#60;h5&#62;Header 5&#60;/h5&#62;</h5></li>
+                <li><h6 style="color: #1F618D;">&#60;h6&#62;Header 6&#60;/h6&#62;</h6></li>
+            </ol>
+        </nav>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">PROTIP: It is recommended to have only one h1 per page in HTML.</p>
+        <progress min="0" max="100" value="20" style="background-color: #FFC300;"></progress>
+    </section>
+    <hr>
+    <!--Text-->
+    <section id="text">
+        <header>
+            <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;"><i>Text</i></h2>
+        </header>
+        <p style="color: #424242; font-family:'Calibri', sans-serif;">With the p tag, you can add text to your website. You can also format it, like making it bold, italic, underlining it, etc. You'll learn that in the next section. Example below:</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;p&#62; This is text in a paragraph tag &#60;/p&#62;</p>
+        <progress min="0" max="100" value="30" style="background-color: #FFC300;"></progress>
+    </section>
+    <hr>
+    <!--Text formatting-->
+    <section id="format">
+        <header>
+            <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;"><i>Text Formatting</i></h2>
+        </header>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">With tags like i, b, or strong, you can also make your text look fancy. Examples:</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;i&#62; <i>Italic Text</i> &#60;/i&#62;</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;b&#62; <b>Bold text</b> &#60;/b&#62;</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;strong&#62; <strong>Another way of making text bold.</strong> &#60;/strong&#62;</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;ins&#62; <ins>Inserted text</ins> &#60;/ins&#62;</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;del&#62; <del>Deleted text</del> &#60;/del&#62;</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;sup&#62; <sup>Supscripted text</sup> &#60;/sup&#62;</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;sub&#62; <sub>Subscripted text</sub> &#60;/sub&#62;</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;small&#62; <small>Small text</small> &#60;/small&#62;</p>
+        <progress min="0" max="100" value="40" style="background-color: #FFC300;"></progress>
+    </section>
+    <hr>
+    <!--Links/Hyperlinks/Anchors-->
+    <section id="links">
+        <header>
+            <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;"><i>Links/Hyperlinks/Anchors</i></h2>
+        </header>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">You can add anchors to your website to link to another website of your choice. Example:</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;a href=&quot;google.com&quot;&#62; <a href="https://google.com" style="color: #FF5733;">Google.com</a> &#60;/a&#62;</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">Or if you want it to open in a new tab:</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;a href=&quot;google.com&quot; target=&quot;_blank&quot;&#62; <a href="https://google.com" style="color: #FF5733;">Google.com</a> &#60;/a&#62;</p>
+        <progress min="0" max="100" value="50" style="background-color: #FFC300;"></progress>
+    </section>
+    <hr>
+    <!--Buttons-->
+    <section id="button">
+        <header>
+            <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;"><i>Buttons</i></h2>
+        </header>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">Buttons help give your website some interactivity. Use attribute onclick to make the button perform an action upon clicking it. You can also add text inside the button. Example</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;button onclick=&quot;alert(&quot;Hello World!&quot;)&quot;&#62; <button onclick="alert('Hello World!')" style="background-color: #FF5733; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px;">Click Me!</button> &#60;/button&#62;</p>
+        <progress min="0" max="100" value="60" style="background-color: #FFC300;"></progress>
+    </section>
+    <hr>
+    <section id="comments">
+        <header>
+            <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;"><i>Comments</i></h2>
+        </header>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">To make a comment, simply type &#60;!-- put text here --&#62;. Comments are ignored in HTML and are often used to help label parts of HTML markup.</p>
+        <progress min="0" max="100" value="70" style="background-color: #FFC300;"></progress>
+    </section>
+    <hr>
+    <!--Tables-->
+    <section id="tables">
+        <header>
+            <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;"><i>Tables</i></h2>
+        </header>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">Tables can help you organize stuff, like in <i>Spreadsheet</i>. Simply type &#60;table border=&quot;1&quot;&#62; &#60;tr&#62; &#60;td&#62;One&#60;/td&#62; &#60;/tr&#62; &#60;/table&#62;. Add as many td's as you want. Add another tr to start a new table row.</p>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">Example:</p
+            <table border="1" style="border-collapse: collapse;">
+                <tr>
+                    <td style="padding: 8px;">One</td>
+                    <td style="padding: 8px;">Two</td>
+                    <td style="padding: 8px;">Three</td>
+                </tr>
+            </table>
+            <progress min="0" max="100" value="80" style="background-color: #FFC300;"></progress>
+        </section>
+        <hr>
+        <!--hr and br-->
+        <section id="hrandbr">
+            <header>
+                <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;"><i>Hr and Br</i></h2>
+            </header>
+            <h3 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;">Hr</h3>
+            <p style="color: #424242; font-family: 'Calibri', sans-serif;">Hr makes a line that splits up text, like so (&#60;hr&#62;). This and br do not require a closing tag.</p>
+            <hr style="border-color: #FF5733;">
+            <h3 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;">Br</h3>
+            <p style="color: #424242; font-family: 'Calibri', sans-serif;">Br is just like Hr, except it makes an invisible line (&#60;br&#62;).</p>
+            <p style="color: #424242; font-family: 'Calibri', sans-serif;">This is text</p>
+            <br>
+            <p style="color: #424242; font-family: 'Calibri', sans-serif;">Seperated by br</p>
+            <progress min="0" max="100" value="90" style="background-color: #FFC300;"></progress>
+        </section>
+        <hr>
+        <section id="semantic">
+            <header>
+                <h2 style="color: #1F618D; font-family: 'Trebuchet MS', sans-serif;"><i>Semantic Tags</i></h2>
+            </header>
+            <p style="color: #424242; font-family: 'Calibri', sans-serif;">Semantic tags are tags that make your HTML accessible to screen readers and easier to parse. While they are not required when making your website, they are recommended. Some semantic tags are:</p>
+            <nav>
+                <ol>
+                    <li style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;main&#62;&#60;/main&#62;, for main elements in your HTML.</li>
+                    <li style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;nav&#62;&#60;/nav&#62;, for unordered or ordered lists.</li>
+                    <li style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;header&#62;&#60;/header&#62;, for headers.</li>
+                    <li style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;article&#62;&#60;/article&#62;, for articles.</li>
+                    <li style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;section&#62;&#60;/section&#62;, for seperating certain sections of your website.</li>
+                    <li style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;aside&#62;&#60;/aside&#62;, for stuff that is not part of the main content in your web page.</li>
+                    <li style="color: #424242; font-family: 'Calibri', sans-serif;">&#60;footer&#62;&#60;/footer&#62;, for credits (i.e authors, sources).</li>
+                </ol>
+            </nav>
+            <progress min="0" max="100" value="100" style="background-color: #FFC300;"></progress>
+        </section>
+        <hr>
+        <p style="color: #424242; font-family: 'Calibri', sans-serif;">congratulations, now you know a lot about HTML, but not all of it. I do hope you enjoyed this overall guide and found something from it.</p>
+    </main>
+    <hr>
+    <aside>
+        <footer>
+            <p style="color: #424242; font-family: 'Calibri', sans-serif;">Written by <a href="https://github.com/DC-BSU-RAK/Spring-2025-Web-Dev-1-Assignement-1-Set-Exercises.git" style="color: #FF5733; text-decoration: none;">YOUSEF RASHID</a></p>
+        </footer>
+    </aside>
+    
+    </body>
+    </html>
